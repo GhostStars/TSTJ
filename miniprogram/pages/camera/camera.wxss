@@ -1,0 +1,18 @@
+page{
+  background-color: #333333;
+}
+.camera{
+  margin-top: 80rpx
+}
+.btnimg{
+  height: 140rpx;
+  width: 150rpx
+}
+.takephoto{
+  background-color: #333333;
+  position: fixed;
+  bottom:15px;
+  width: 650rpx;
+  min-width: 650rpx;
+  left:50rpx;
+}

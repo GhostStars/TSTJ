@@ -1,0 +1,12 @@
+<!--miniprogram/pages/camera/camera.wxml-->
+<view>
+  <camera class="camera" device-position="back" flash="off" binderror="error" style="width: 100%; height:600rpx;"></camera>
+</view>
+
+<view>
+  <image class="img" mode="widthFix" src="{{src}}"></image>
+</view>
+
+<button bindtap="takePhoto" class="takephoto">
+  <image class="btnimg" src="../../images/takephoto.png"></image>
+</button>

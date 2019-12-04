@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/ocr/ocr",
+    "pages/show/show",
+    "pages/camera/camera"
+    
+    
+  ],
+  "window": {
+    "backgroundColor": "#333333",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+  
+}

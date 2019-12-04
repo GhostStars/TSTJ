@@ -1,0 +1,66 @@
+Page{
+  background-color: #333333
+}
+.imglist {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin-bottom: 140rpx;
+}
+
+.images {
+  width: calc(50% - 4px);
+  height: 375rpx;
+  margin: 2px;
+  background-color: #000;
+  float: left;
+}
+
+.footer{
+  position: fixed;
+  background-color: #333333;
+  left: 0;
+  bottom: 0;
+  z-index: 40;
+  width: 100%;
+}
+
+.btnarea{
+  background-color: #333333;
+  display: flex;
+  height: 100rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-block-end: 20rpx;
+  margin-block-start: 20rpx;
+}
+
+.addbtn {
+  background-color: #c00202;
+  border-radius: 50rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addbtn1 {
+  background-color: #c00202;
+  border-radius: 50rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.text-in-button{
+  font-weight: bold;
+  font-size: 34rpx;
+  color: #FFFFFF;
+}

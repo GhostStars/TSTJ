@@ -1,0 +1,66 @@
+<view class="cu-card">
+
+ <view bindtap="toAlbum" data-index="animal" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/animal.png?sign=231683341f16fa4139c9eb6c124bc050&t=1575040064)">
+    <view class="cardTitle">
+      动物
+    </view>
+  </view>
+
+  <view bindtap="toAlbum" data-index="plant" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/plant.png?sign=8a92624f8f59652312d12a6b280c4bd2&t=1575040095)">
+    <view class="cardTitle">
+      植物
+    </view>
+  </view>
+
+  <view bindtap="toAlbum" data-index="fav" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/fav.png?sign=0421f3352abe436e52f094814a46534e&t=1575040116)">
+    <view class="cardTitle">
+      果蔬
+    </view>
+  </view>
+
+  <view bindtap="toAlbum" data-index="car" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/car.png?sign=3e7b5e76592100fec923d4f130de30cf&t=1575040141)">
+    <view class="cardTitle">
+      汽车
+    </view>
+  </view>
+
+  <view bindtap="toAlbum" data-index="food" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/food.png?sign=5a647bf04f98c76b28234a46ff9d021a&t=1575040156)">
+    <view class="cardTitle">
+      美食
+    </view>
+  </view>
+
+  
+
+  
+
+
+  <view bindtap="toAlbum" data-index="logo" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/logo.png?sign=1774e2cf0f1ef5cc54a48d786084fbbc&t=1575040173)">
+    <view class="cardTitle">
+      LOGO
+    </view>
+  </view>
+
+
+
+  <view bindtap="toAlbum" data-index="star" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/star.png?sign=006519afa9960745ba430815b59ef1e4&t=1575040187)">
+    <view class="cardTitle">
+      明星
+    </view>
+  </view>
+  
+  
+  
+  
+  <view bindtap="toAlbum" data-index="landmark" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/db.png?sign=3d6e7ddbadb46f04e334ca05e440fdb2&t=1575040199)">
+    <view class="cardTitle">
+      地标
+    </view>
+  </view>
+  
+  <view bindtap="toAlbum" data-index="general" class="cu-item bg-img shadow-blur" data-url="/indexes/indexes" style="background-image:url(https://6669-first-8q3hb-1259668999.tcb.qcloud.la/ocr/ty.png?sign=a80bb714df1ae67aa4362621713b991a&t=1575040226)">
+    <view class="cardTitle">
+      通用
+    </view>
+  </view>
+</view>

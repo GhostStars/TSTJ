@@ -1,0 +1,86 @@
+<view class="topshow">
+  <image  class="topimg" 
+          src="{{imgdata.src}}"
+          mode="aspectFit">
+  </image>
+</view>
+
+<view class="resultText">
+识别结果
+</view>
+
+<view class="table" wx:if="{{type=='car'}}">
+  <view class="tr bg-w" >
+    <view class="th">可能性</view>
+    <view class="th">品牌</view>
+    <view class="th">系列</view>
+    <view class="th">种类</view>
+    <view class="th">年份</view>
+  </view>
+  <block wx:for="{{imgdata.content}}" wx:key="{{index}}">
+    <view class="tr bg-g" >
+      <view class="td">{{index+1}}</view>
+      <view class="td">{{item.Brand}}</view>
+      <view class="td">{{item.Serial}}</view>
+      <view class="td">{{item.Type}}</view>
+      <view class="td">{{item.Year}}</view>
+    </view>
+    
+  </block>
+</view>
+
+<view class="table" wx:if="{{type=='star'}}">
+  <view class="tr bg-w" >
+    <view class="th">可能性</view>
+    <view class="th">姓名</view>
+    <view class="th">身份</view>
+  </view>
+  <block wx:for="{{imgdata.content}}" wx:key="{{index}}">
+    <view class="tr bg-g" >
+      <view class="td">{{index+1}}</view>
+      <view class="td">{{item.Name}}</view>
+      <view class="td">{{item.BasicInfo}}</view>
+    </view>
+  </block>
+</view>
+
+<view class="table" wx:if="{{type=='plant'||type=='animal'||type=='fav'||type=='food'||type=='logo'}}">
+  <view class="tr bg-w" >
+    <view class="th">可能性</view>
+    <view class="th">名称</view>
+  </view>
+  <block wx:for="{{imgdata.content}}" wx:key="{{index}}">
+    <view class="tr bg-g" >
+      <view class="td">{{index+1}}</view>
+      <view class="td">{{item.name}}</view>
+    </view>
+  </block>
+</view>
+
+<view class="table" wx:if="{{type=='landmark'}}">
+  <view class="tr bg-w" >
+    <view class="th">地标</view>
+  </view>
+  <block>
+    <view class="tr bg-g" >
+      <view class="td">{{imgdata.content.landmark}}</view>
+    </view>
+  </block>
+</view>
+
+<view class="table" wx:if="{{type=='general'}}">
+  <view class="tr bg-w" >
+    <view class="th">可能性</view>
+    <view class="th">标签</view>
+    <view class="th">关键词</view>
+  </view>
+  <block wx:for="{{imgdata.content}}" wx:key="{{index}}">
+    <view class="tr bg-g" >
+      <view class="td">{{index+1}}</view>
+      <view class="td">{{item.root}}</view>
+      <view class="td">{{item.keyword}}</view>
+    </view>
+  </block>
+</view>
+
+

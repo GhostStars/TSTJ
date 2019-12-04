@@ -1,0 +1,24 @@
+<view class="imglist">
+<image class="images"
+       wx:for="{{imglist}}"
+       wx:key="index"
+       mode='aspectFit' 
+       src="{{item.src}}"
+       bindtap="toimgshow"
+       data-i="{{index}}"
+       data-img="{{item.src}}"
+       bindlongpress="removeimg"></image>
+</view>
+
+<view class="footer">
+  <view class="btnarea">
+    <button class="addbtn1" 
+          bindtap="toCamera">
+          <text class="text-in-button">拍照</text>
+    </button>
+    <button class="addbtn" 
+          bindtap="uploadimg">
+          <text class="text-in-button">上传照片</text>
+    </button>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "name": "baiduAI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.4.4",
+    "superagent": "^5.1.1",
+    "wx-server-sdk": "latest"
+  }
+}
